@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'KerakNeraka';
-  src: url('./KerakNeraka-8Oaoz.otf');
+  font-family: 'LastChristmas';
+  src: url('./LastChristmas.otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,7 +10,7 @@
   --color-fg: #fff;
 
   --font-body: sans-serif;
-  --font-header: 'KerakNeraka', sans-serif;
+  --font-header: 'LastChristmas', sans-serif;
 
   --step--2: clamp(0.6331rem, 0.6141rem + 0.0949vw, 0.6877rem);
   --step--1: clamp(0.844rem, 0.7993rem + 0.2234vw, 0.9724rem);
@@ -24,6 +24,9 @@
 
 html, body {
     height: 100vh;
+    background-image: url("numba1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 body {
